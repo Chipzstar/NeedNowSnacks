@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import Home from "./containers/Home";
 import Checkout from "./containers/Checkout";
 
 class App extends Component {

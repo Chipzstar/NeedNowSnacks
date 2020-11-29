@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import logo from "../assets/logo.png";
 import basket from "../assets/basket.svg";
 import QuantityPicker from "../components/QuantityPicker/QuantityPicker";
@@ -33,8 +33,16 @@ class Checkout extends Component {
 							<span>remove</span>
 						</div>
 					</div>
-					<div>
-
+					<div className="">
+						<img src="" alt=""/>
+						<div className="">
+							<span>Item name</span>
+							<span>Item price</span>
+						</div>
+						<div className="">
+							<QuantityPicker max={5} min={0}/>
+							<span>remove</span>
+						</div>
 					</div>
 				</div>
 				<div className="">
