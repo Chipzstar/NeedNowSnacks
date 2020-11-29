@@ -12,7 +12,7 @@ import '../App.css';
 class Home extends Component {
 	render() {
 		return (
-			<div className={"container-fluid"}>
+			<div className="container-fluid">
 				<div className="header-container pb-5">
 					<div className="logo">
 						<img src={logo} alt={"NeedNowSnacks"} className="img-fluid"
@@ -20,7 +20,7 @@ class Home extends Component {
 					</div>
 					<div className="basket">
 						<img src={basket} alt="Basket" height={40} width={30}/>
-						<div className={"basket-badge"}>1</div>
+						<div className="basket-badge">1</div>
 					</div>
 				</div>
 				<NavBar/>
@@ -86,9 +86,6 @@ class Home extends Component {
 							<span className="font-weight-bold text-muted">£1.50</span>
 						</div>
 					</div>
-				</div>
-				<div>
-
 				</div>
 			</div>
 		);
