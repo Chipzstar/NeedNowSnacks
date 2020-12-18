@@ -28,15 +28,16 @@
     align-items: center;
 }
 
-.basket {
-    display: flex;
-    flex: 0;
-    justify-content: flex-end;
-    align-items: center;
+.basket-container {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+
 }
 
 .basket-badge {
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .add-to-cart {
@@ -44,4 +45,23 @@
     color: #9400D3;
     height: 50px;
     width: 100px;
+}
+
+.modal-backdrop {
+    background-color: transparent;
+}
+
+figure { /* Here !!! */
+    position: relative;
+    margin: 0;
+}
+
+figure img { max-width: 100%; }
+
+figcaption {
+    position: absolute;
+    right: 30%;
+    bottom: 10%;
+    padding: 1px;
+    line-height: 18px;
 }

@@ -6,7 +6,7 @@ import QuantityPicker from "../components/QuantityPicker/QuantityPicker";
 class Checkout extends Component {
 	render() {
 		return (
-			<div className={"container-fluid"}>
+			<div className="container-fluid">
 				<div className="header-container pb-5">
 					<div className="logo">
 						<img src={logo} alt={"NeedNowSnacks"} className="img-fluid"
@@ -54,7 +54,7 @@ class Checkout extends Component {
 						<input type="text"/>
 						<input type="text"/>
 						<input type="text"/>
-						<button>order</button>
+						<button type="submit">order</button>
 					</form>
 				</div>
 			</div>
